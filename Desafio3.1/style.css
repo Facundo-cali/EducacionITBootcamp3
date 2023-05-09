@@ -1,0 +1,177 @@
+#logo{
+    width: 5%;
+}
+header a:active{
+    font-weight: 700;
+}
+
+
+header{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 4%;
+}
+
+body{
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+nav{
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    line-height: normal;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #04146c;
+    margin-left: 6%;
+    text-decoration: none;
+}
+
+main{
+    text-align: center;
+}
+
+main img{
+    width: 100%;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 96px;
+    font-weight: 700;
+    margin: 0 auto;
+    color: #0a2ff1;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 34.6px;
+    font-weight: 400;
+    color: #04146c;
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 3%;
+    padding: 3%;
+    border: solid 1px rgb(210, 216, 255);
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30.6px;
+    font-weight: 400;
+    color: #04146c;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid rgb(97, 85, 143);
+    border-radius: 0%;
+    width: 500px;
+    height: 50px;
+}
+textarea{
+    width: 500px;
+    height: 100px;
+}
+
+label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30.6px;
+    font-weight: 700;
+    color: #04146c;
+}
+
+.main-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#consulta{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30.6px;
+}
+
+.form-contact p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 45.3px;
+    color: #2c00cc;
+    margin: 2% 0 2% 0; 
+}
+
+button{
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+.botones{
+    margin-top: 2%;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#reset{
+    background-color: #f98500;
+}
+
+#enviar{
+    background-color: #2c00cc;
+}
+
+.por-que-container{
+    display: flex;
+}
+.por-que-container h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 45.3px;
+}
+.por-que-container img{
+    width: 50%;
+    background-position-y: bottom
+}
+.por-que{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+    margin: 4%;
+    width: 50%;
+    text-align: justify;
+}
+.por-que p{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.por-que strong{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+footer{
+    background-color: rgb(57, 88, 241);
+}
+
+footer img{
+    padding: 3%;
+    width: 20%;
+}
