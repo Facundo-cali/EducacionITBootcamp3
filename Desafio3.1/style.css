@@ -9,11 +9,12 @@ header a:active{
 header{
     font-family: 'Roboto', sans-serif;
     display: flex;
-    margin: 4%;
-}
+    margin: 2%;
 
+}
 body{
     margin: 0 auto;
+    border-top: solid 25px rgb(57, 88, 241);
     background-color: rgb(255, 255, 255);
 }
 
@@ -156,7 +157,7 @@ button{
     font-size: 24px;
     color: #04146c;
     margin: 4%;
-    width: 50%;
+    width: 40%;
     text-align: justify;
 }
 .por-que p{
@@ -174,4 +175,12 @@ footer{
 footer img{
     padding: 3%;
     width: 20%;
+}
+
+main aside{
+    width: 60%;
+    background-image: url(images/M5-Desafio3-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }

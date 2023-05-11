@@ -3,6 +3,10 @@ body{
     font-family: 'Mulish', sans-serif;
 }
 
+div{
+    padding: 30px;
+}
+
 h1{
     font-size: 32.64px;
     font-weight: 700;

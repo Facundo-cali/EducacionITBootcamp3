@@ -16,7 +16,7 @@ h1{
 }
 header{
     background-image: url(images/M4\ -\ Desafío3_img-header.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
